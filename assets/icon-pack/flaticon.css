@@ -1,0 +1,41 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/07/2018 13:07
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  line-height: 1;
+
+}
+
+.flaticon-technical-support:before { content: "\f100"; }
+.flaticon-coffee-cup:before { content: "\f101"; }
+.flaticon-small-calendar:before { content: "\f102"; }
+.flaticon-maintenance:before { content: "\f103"; }
+.flaticon-placeholder:before { content: "\f104"; }
+.flaticon-email-envelope-with-arroba-sign:before { content: "\f105"; }
+.flaticon-smartphone:before { content: "\f106"; }
+.flaticon-coding:before { content: "\f107"; }
+.flaticon-diagram:before { content: "\f108"; }
+.flaticon-income:before { content: "\f109"; }

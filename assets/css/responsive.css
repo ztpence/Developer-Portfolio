@@ -1,0 +1,114 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* 1 column, percentage width */
+.grid-item{
+  width: 100%;
+}
+
+.btn-tp {
+    font-size: 16px;
+    padding: 5px 15px;
+}
+.my-photo::after {
+    right: 8px;
+    bottom: -5px;
+    height: 100%;
+    width: 92%;
+    
+}
+.intro-title {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.sub-intro{
+    font-size: 20px;
+}
+.intro-sub-title {
+    font-size: 16px;
+}
+.hero-hello {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 5px;
+}
+.about-button-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.xs-center{
+	text-align: center;
+}
+.mt-xs-20{
+	margin-top: 20px;
+}
+.mb-xs-20{
+	margin-bottom: 20px;
+}
+.contact-me h3 {
+    font-size: 18px;
+}
+.section-title span {
+    font-size: 24px;
+}
+.reviews-details > p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.xs-pt-pb-90{
+	padding: 90px 15px;
+}
+.testimonial-slider::before{
+	left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.time-perieod{
+    margin-bottom: 15px;
+}
+.counter {
+    font-size: 28px;
+    font-weight: 700;
+}
+.price-amount {
+    font-size: 28px;
+}
+.footer-col {
+    border-right: 0px solid #DADFE1;
+    padding: 20px 0;
+}
+.footer-col:last-child {
+    padding: 20px 0;
+}
+.skill-box {
+    margin-bottom: 30px;
+}
+}
+/*// Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* 5 columns, percentage width */
+.grid-item{
+  width: 100%;
+}
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.grid-item{
+  width: 50%;
+}
+}
+@media (max-width: 768px) {
+.sm-last{
+    margin-bottom: 0px;
+}
+}
+@media (min-width: 767.98px) {
+.skill-box.last {
+    margin-bottom: 0px;
+}
+}
